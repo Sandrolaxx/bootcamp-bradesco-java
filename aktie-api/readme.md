@@ -25,8 +25,8 @@ classDiagram
         - String complement
     }
 
-    User "1" -- "many" StudyGroup : participa
-    StudyGroup "1" -- "1" Location : ocorre em
+    User "1" -- "many" StudyGroup : participate
+    StudyGroup "1" -- "1" Location : occurs in
 ```
 
 ---
