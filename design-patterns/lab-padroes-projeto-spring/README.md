@@ -5,4 +5,4 @@ Repositório com as implementações dos padrões de projeto explorados no Lab "
 - Strategy/Repository
 - Facade
 
-Criado com base no [repo]("https://github.com/digitalinnovationone/lab-padroes-projeto-spring") do [falvojr]("https://github.com/falvojr").
+Criado com base no [repo](https://github.com/digitalinnovationone/lab-padroes-projeto-spring) do [falvojr](https://github.com/falvojr).
