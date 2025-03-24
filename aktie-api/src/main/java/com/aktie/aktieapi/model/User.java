@@ -8,7 +8,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -22,7 +24,7 @@ public class User {
     @Column(name = "NAME")
     private String name;
     
-    @Column(name = "EMAIL")
+    @Column(name = "EMAIL", unique = true)
     private String email;
     
     @Column(name = "PHONE")
@@ -34,7 +36,12 @@ public class User {
     @Column(name = "BIRTHDAY")
     private LocalDate birthday;
 
-    @OneToMany(mappedBy = "id")
+    @ManyToMany
+    @JoinTable(
+        name = "user_studygroup",
+        joinColumns = @JoinColumn(name = "user_id"),
+        inverseJoinColumns = @JoinColumn(name = "studygroup_id")
+    )
     private List<StudyGroup> studyGroups; 
 
     public Long getId() {

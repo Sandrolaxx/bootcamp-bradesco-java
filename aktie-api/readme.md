@@ -7,7 +7,7 @@ classDiagram
     class User {
         - String name
         - String email
-        - String birthday
+        - LocalDate birthday
         - String phone
         - String password
     }
@@ -15,7 +15,7 @@ classDiagram
     class StudyGroup {
         - String theme
         - String title
-        - String interval
+        - EnumInterval interval
         - List<int> day
     }
 

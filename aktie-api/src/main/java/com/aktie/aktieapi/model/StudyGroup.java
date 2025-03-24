@@ -1,13 +1,18 @@
 package com.aktie.aktieapi.model;
 
 import java.util.List;
+import java.util.Set;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -28,12 +33,16 @@ public class StudyGroup {
     @Column(name = "INTERVAL")
     private String interval;
     
+    @ElementCollection
+    @CollectionTable(name = "group_days", joinColumns = @JoinColumn(name = "studygroup_id"))
     @Column(name = "DAYS")
     private List<Integer> days;
     
-    @Column(name = "LOCATION")
     @OneToOne(cascade = CascadeType.ALL)
     private Location location;
+
+    @ManyToMany(mappedBy = "studyGroups")
+    private Set<User> students;
 
     public Long getId() {
         return id;
