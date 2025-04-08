@@ -44,3 +44,33 @@ Nuvem híbrida:
 * Cobrança se inicia imediatamente.
 
 Modelo baseado em consumo, o que significa que os usuários finais pagam somente pelos recursos que usam.
+
+---
+
+## Benefícios da nuvem
+
+### Alta disponibilidade
+
+Recursos disponíveis sempre que necessário, está relacionado à SLA(Service Level Agreement). A Azure em questão se garante que seus serviços sempre estarão 100%(de 99% até 99.95%, na verdade, variando do serviço*) operacionais. Caso o SLA não seja respeitado, a Azure irá te reembolsar pelo período de downtime dos serviços.
+
+### Escalabilidade
+
+A escalabilidade refere-se à capacidade de ajustar a capacidade do ambiente/recurso para atender à demanda.
+
+Capacidade de escalar significa que você poderá adicionar mais recursos para lidar melhor com o aumento da demanda.
+
+Outro benefício de escalabilidade é que você não está pagando além do necessário pelos serviços.
+
+Como a nuvem é um modelo baseado em consumo, você paga apenas pelo que usa. Se a demanda cair, você poderá reduzir seus recursos e, assim, reduzir seus custos.
+
+**Escalabilidade vertical**: Permite adicionar mais capacidade de processamento e armazenamento por meio de aumento de CPU's, RAM e Storage à máquina virtual.
+
+### Elasticidade
+
+Se você experimentasse um salto repentino acentuado na demanda, seus recursos implantados poderiam ser expandidos automaticamente ou manualmente.
+
+Poderíamos adicionar máquinas virtuais ou contêineres por meio da expansão.
+
+Da mesma forma, se houver uma queda significativa na demanda, os recursos implantados poderão ser reduzidos horizontalmente de maneira automática ou manual.
+
+Podemos chamar esse conceito de **Escalabilidade horizontal**.
