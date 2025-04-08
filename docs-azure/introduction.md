@@ -74,3 +74,46 @@ Poderíamos adicionar máquinas virtuais ou contêineres por meio da expansão.
 Da mesma forma, se houver uma queda significativa na demanda, os recursos implantados poderão ser reduzidos horizontalmente de maneira automática ou manual.
 
 Podemos chamar esse conceito de **Escalabilidade horizontal**.
+
+### Confiabilidade
+
+Devido a design descentralizado, a nuvem naturalmente dá suporte a uma infraestrutura confiável e resiliente.
+
+Com um design descentralizado, a nuvem permite que você tenha recursos implantados em várias regiões do mundo.
+
+Com essa escala global, mesmo que ocorra um evento catastrófico em uma região, as outras regiões ainda estarão em funcionamento.
+
+### Previsibilidade
+
+A previsibilidade na nuvem permite que você avance com confiança, seja no desempenho ou no custo. Ambas são influenciadas pelo Microsoft Azure Well-Architected Framework.
+
+### Segurança
+
+A nuvem oferece ferramentas de segurança que atendem às necessidades dos clientes, mas, é importante lembrar que a implementação de muitas delas deve ser realizada pelo cliente.
+
+Se você quiser o controle máximo da segurança, a infraestrutura como serviço fornecerá recursos físicos, mas permitirá que você gerencie os sistemas operacionais e o software instalado, incluindo aplicações de patches e manutenção.
+
+Se você quiser que a aplicação de patches e a manutenção sejam tratadas automaticamente, as implantações de plataforma como serviço ou software como serviço podem ser as melhores estratégias de nuvem para você.
+
+### Governança
+
+A auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias de mitigação.
+
+Dependendo do seu modelo operacional, patches de software e atualização também podem ser aplicados automaticamente, o que ajuda na governança e na segurança.
+
+Ao estabelecer uma presença de governança o mais cedo possível, você poderá manter sua presença de nuvem atualizada, protegida e bem gerenciada. Normalmente temos uma parte da T.I responsável por isso, ou às vezes a área de segurança também abraça esse ponto.
+
+### Gerenciabilidade
+
+Um dos principais benefícios da computação em nuvem são as opções de capacidade de gerenciamento. Há dois tipos de capacidade de gerenciamento para computação em nuvem, são eles, gerenciamento pelo provedor de nuvem e gerenciamento pelo cliente.
+
+O gerenciamento da nuvem diz respeito a gerenciar seus recursos de nuvem. Por exemplo:
+* Estalar automaticamente a implantação de recursos com base na necessidade.
+
+Recomendado implantar recursos com base em um modelo pré-configurado, removendo a necessidade de configuração manual.
+
+O gerenciamento de nuvem diz respeito à maneira de gerenciar seu ambiente de nuvem e seus recursos. Por exemplo:
+* Por meio de um portal na Web
+* Usando uma interface de linha de comando
+* API's
+* Usando o PowerShell
