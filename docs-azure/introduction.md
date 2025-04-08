@@ -119,3 +119,54 @@ O gerenciamento de nuvem diz respeito à maneira de gerenciar seu ambiente de nu
 * Usando uma interface de linha de comando
 * API's
 * Usando o PowerShell
+
+---
+
+## Tipos de serviço de nuvem: IaaS, Paas e SaaS
+
+### Infraestrutura como Serviço - IaaS
+
+Temos mais liberdade na criação e manipulação dos recursos, definindo de maneira quase manual nossos servidores, armazenamento e firewall/segurança da rede. O preço da liberdade é a responsabilidade de manter tudo atualizado e seguro. No modelo de responsabilidade compartilhada, em IaaS a responsabilidade pesa mais para o cliente e menos para o provedor.
+
+É o modelo mais básico entre os três, porém temos maior flexibilidade e controle ao custo de maior responsabilidade.
+
+### Plataforma como Serviço - PaaS
+
+O PaaS oferece um ambiente de desenvolvimento completo na nuvem. O provedor cuida da infraestrutura e do sistema operacional, enquanto o desenvolvedor foca apenas na criação e execução do código.
+
+Esse modelo acelera o desenvolvimento e reduz a complexidade operacional.
+
+A responsabilidade do cliente fica apenas sobre o código da aplicação e os dados. É ideal para desenvolvimento ágil de aplicações, APIs, microserviços e aplicações web.
+
+Exemplo, podemos ter toda a nossa aplicação executada em uma máquina virtual(IaaS) e subir o banco de dados em um serviço gerenciado pela Azure.
+
+Outros exemplos: Heroku, Google App Engine, AWS Elastic Beanstalk.
+
+### Software como Serviço - SaaS
+
+Com o SaaS, o usuário consome aplicações completas via internet, sem precisar se preocupar com nada técnico. Todo o gerenciamento de infraestrutura, plataforma e software é feito pelo provedor.
+
+A responsabilidade do cliente é somente sobre o uso do sistema e os dados inseridos. É ideal para empresas que querem soluções prontas para uso como e-mail, CRM, ERP, etc.
+
+Exemplos: Google Workspace (Gmail, Docs), Microsoft 365, Salesforce.
+
+---
+
+### Modelo de responsabilidade
+
+​O Modelo de Responsabilidade Compartilhada é um conceito fundamental na computação em nuvem que define as obrigações de segurança e gerenciamento entre o provedor de serviços em nuvem (CSP) e o cliente. Essas responsabilidades variam conforme o tipo de serviço contratado: Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) ou Software como Serviço (SaaS).
+
+![modelo responsabilidade](https://learn.microsoft.com/en-us/training/wwl-azure/describe-cloud-service-types/media/shared-responsibility-b3829bfe.svg)
+
+A imagem mostra **como as responsabilidades são divididas** entre cliente e provedor (Microsoft):
+
+| Camada                               | SaaS        | PaaS        | IaaS        | On-Prem     |
+|--------------------------------------|-------------|-------------|-------------|-------------|
+| **Cliente sempre responsável por:**  | Dados, dispositivos, contas e identidades |
+| **Responsabilidade varia:**          | Aplicações, sistema, rede, diretórios     |
+| **Microsoft responsável por:**       | Hardware, rede física, datacenter         |
+
+Resumo
+
+- Quanto **mais alto o nível do serviço (SaaS)**, **menos responsabilidade técnica** para o cliente.
+- Quanto **mais baixo (IaaS ou On-Prem)**, **mais controle e mais responsabilidade** do cliente.
