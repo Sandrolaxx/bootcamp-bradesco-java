@@ -53,6 +53,8 @@ Modelo baseado em consumo, o que significa que os usuários finais pagam somente
 
 Recursos disponíveis sempre que necessário, está relacionado à SLA(Service Level Agreement). A Azure em questão se garante que seus serviços sempre estarão 100%(de 99% até 99.95%, na verdade, variando do serviço*) operacionais. Caso o SLA não seja respeitado, a Azure irá te reembolsar pelo período de downtime dos serviços.
 
+![SLA e uptime](https://github.com/user-attachments/assets/54083827-95e7-4f26-a541-5fd388216c06)
+
 ### Escalabilidade
 
 A escalabilidade refere-se à capacidade de ajustar a capacidade do ambiente/recurso para atender à demanda.
