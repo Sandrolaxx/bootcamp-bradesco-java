@@ -22,7 +22,7 @@ Ao distribuir suas aplicações e dados entre múltiplas zonas, você protege se
 
 Cada região da Azure pode conter duas ou mais zonas, permitindo configurar soluções tolerantes a falhas, com SLA de até **99,99%** de disponibilidade para serviços compatíveis.
 
-![Azure AZ](https://cdn.document360.io/d9568273-28c0-486c-8750-64643e7f5f97/Images/Documentation/1-availability-zones.png)
+![Azure AZ](https://miro.medium.com/v2/resize:fit:720/format:webp/1*5qnTLbs2vaozvfc82GB1lw.png)
 
 **Podemos dizer que uma AZ é um datacenter?**
 
