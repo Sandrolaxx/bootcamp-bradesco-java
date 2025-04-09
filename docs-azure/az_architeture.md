@@ -132,12 +132,6 @@ Veremos a seguir sobre **Subscriptions** e **Management Group**.
 
 ## Assinaturas (Subscriptions)
 
-Claro! Aqui está uma pequena documentação introdutória sobre **Assinaturas** na Azure:
-
----
-
-## Assinaturas na Azure
-
 Assinaturas (Subscriptions) na Azure representam uma unidade de cobrança e controle de acesso aos recursos em nuvem. Cada assinatura possui um identificador exclusivo e define os limites de uso, faturamento e políticas de gerenciamento aplicáveis aos recursos nela contidos.
 
 ### Principais características
