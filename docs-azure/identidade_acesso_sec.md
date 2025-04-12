@@ -49,5 +49,40 @@ Funcionalidades:
 
 ## Modelos de segurança
 
+Temos sempre de pensar no modelo Zero Trust, que é um modelo de segurança que parte do princípio de que nenhum usuário, dispositivo ou aplicação deve ser automaticamente confiável, mesmo dentro da rede corporativa.
+
+No **Zero Trust**, o acesso é concedido somente após verificação contínua de identidade, dispositivo, localização e comportamento. O modelo aplica o conceito de "nunca confie, sempre verifique", reforçando a segurança com autenticação forte, acesso condicional e monitoramento constante.
+
 ### Acesso condicional
 
+O Acesso Condicional do Azure é um recurso do Microsoft Entra ID que permite controlar o acesso a aplicativos e recursos com base em condições específicas, como identidade do usuário, localização, dispositivo, risco de login, entre outros.
+
+**Como funciona?**
+
+Ele aplica políticas automatizadas que determinam quando e como o acesso é permitido. Por exemplo:
+- Exigir **MFA** se o usuário estiver fora da rede corporativa.
+- Bloquear acesso de **países não autorizados**.
+- Permitir acesso somente com **dispositivo gerenciado**.
+- Impedir login se o sistema detectar **risco de identidade**.
+
+**Resumo**
+
+O Acesso Condicional do Azure ajuda a proteger recursos da organização, aplicando políticas inteligentes de acesso baseadas em risco e contexto. Ele equilibra segurança com produtividade, garantindo que somente usuários confiáveis, nas condições certas, possam acessar recursos sensíveis.
+
+### RBAC
+
+O Controle de Acesso Baseado em Função (RBAC – Role-Based Access Control) é um modelo de segurança que concede permissões aos usuários com base em suas funções dentro da organização.
+
+**Resumo**
+
+No RBAC, os usuários recebem funções predefinidas (como Leitor, Colaborador ou Administrador), e essas funções determinam quais recursos podem ser acessados e quais ações podem ser realizadas. É uma forma eficiente e segura de gerenciar permissões em ambientes como o Microsoft Entra ID e o Azure.
+
+![RBAC](https://cdn.infrasos.com/wp-content/uploads/2023/04/pic1.jpg)
+
+Podemos impor essas funções de nível de acesso sobre usuários, grupos, recursos e grupos de recursos.
+
+### Microsoft Defender for Cloud
+
+É uma plataforma de segurança nativa da nuvem que ajuda a proteger recursos em ambientes multicloud e híbridos.
+
+Ele oferece avaliação contínua de segurança, recomendações de correção, detecção de ameaças e proteção ativa para serviços do Azure, AWS e Google Cloud. Ele ajuda a fortalecer a postura de segurança da organização e responder rapidamente a incidentes.
