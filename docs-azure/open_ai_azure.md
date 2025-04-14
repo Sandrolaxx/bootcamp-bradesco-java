@@ -78,4 +78,4 @@ Body:
 
 Imagem gerada no lab.
 
-![Finalizado!](/outputs/finalizando_bootcamp.png)
+![Finalizado!](./outputs/finalizando_bootcamp.png)
