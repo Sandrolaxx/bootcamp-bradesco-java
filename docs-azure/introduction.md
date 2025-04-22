@@ -160,11 +160,11 @@ Exemplos: Google Workspace (Gmail, Docs), Microsoft 365, Salesforce.
 
 A imagem mostra **como as responsabilidades são divididas** entre cliente e provedor (Microsoft):
 
-| Camada                               | SaaS        | PaaS        | IaaS        | On-Prem     |
-|--------------------------------------|-------------|-------------|-------------|-------------|
-| **Cliente sempre responsável por:**  | Dados, dispositivos, contas e identidades |
-| **Responsabilidade varia:**          | Aplicações, sistema, rede, diretórios     |
-| **Microsoft responsável por:**       | Hardware, rede física, datacenter         |
+| Ator                               | Responsável por recurso                                      |
+|--------------------------------------|-------------                              |
+| **Cliente**  | Dados, dispositivos, contas e identidades |
+| **De acordo com modelo**          | Aplicações, sistema, rede, diretórios     | 
+| **Microsoft**       | Hardware, rede física, datacenter         |
 
 Resumo
 
